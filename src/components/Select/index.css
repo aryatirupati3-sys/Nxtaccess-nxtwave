@@ -1,0 +1,32 @@
+.select-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.select-dropdown {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background: white;
+  transition: border-color 0.3s;
+}
+
+.select-dropdown:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.select-dropdown:hover {
+  border-color: #667eea;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .select-dropdown {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+}

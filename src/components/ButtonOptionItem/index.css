@@ -1,0 +1,32 @@
+.button-option {
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: left;
+}
+
+.button-option:hover {
+  border-color: #667eea;
+  background: #f0f4ff;
+}
+
+.button-option.selected {
+  border-color: #667eea;
+  background: #667eea;
+  color: white;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .button-option {
+    padding: 12px 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
